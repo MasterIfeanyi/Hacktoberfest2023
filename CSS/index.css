@@ -164,11 +164,6 @@ li{
 
 /* Body Section */
 
-.code-img img {
-    width: 13rem;
-    height: 13rem;
-    margin: 0 auto;
-}
 
 .container-1{
     height: 100vh;
@@ -204,6 +199,28 @@ li{
 .explore-btn:hover {
     width: 320px;
 }
+
+
+.three-col-grid{
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* contributors section media query */
+@media (max-width: 992px){
+    .three-col-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px){
+    .three-col-grid{
+        place-items: center;
+        grid-template-columns: 1fr;
+    }
+}
+
 
 
 /* Contributors Section */
