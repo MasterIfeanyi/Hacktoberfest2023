@@ -139,7 +139,7 @@ li{
 
 #home h1 {
     color: white;
-    margin: 20px 0;
+    /* margin: 10px 0; */
 }
 
 
@@ -183,10 +183,10 @@ li{
 
 .main-logo {
     font-family: 'Lato', cursive;
-    font-size: 120px;
     text-align: center;
     margin: 0 auto 0px auto;
     max-width: 600px;
+    /* font-size: 120px; */
 }
 
 .explore-btn{
